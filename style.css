@@ -3,6 +3,7 @@
 
 .body {
     background-color: hsl(30, 38%, 92%);
+    height: 100vh; /*prends toute la page du nav*/
 }
 
 .image {
