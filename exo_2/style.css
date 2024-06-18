@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="437"><path fill="%23D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>') no-repeat;
+    background-color: #e0e8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    margin: 0px;
+    color: hsl(224, 23%, 55%);
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    max-width: 83%;
+    overflow: hidden;   
+    box-shadow: 1px 19px 22px 0px rgb(177, 194,238)
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 32px;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: #eef0f5; */
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+
+
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+
+.div_price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    font-size: 15px;
+}
+
+.libelle_price {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+svg {
+    padding: 10px;
+    margin-right: auto;
+
+}
+
+a:hover {
+    color: #8a7fe7;
+
+}
+
+a {
+    margin-left: auto;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 1px 19px 22px 0px rgb(177, 194,238)
+
+}
+
+.cancel:hover {
+    color: #2d3450;
+    cursor: pointer;
+}
+
+.cancel {
+    font-size: 15px;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: #e0e8ff;
+    }
+}
